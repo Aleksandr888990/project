@@ -1,0 +1,18 @@
+.servi{
+    font-family: "Montserrat";
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #194484;
+    margin-top: 170px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.servic{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    .service{
+        justify-items: center;
+    }
+}

@@ -1,0 +1,46 @@
+.slide2{
+    width: 1349px;
+    height: 100%;
+    background: url(./main2.svg)  no-repeat;
+   .slide1_text{
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        left: 100px;
+        color: white;
+        font-family: "Montserrat";
+         margin-top: 170px;
+        h1{            
+            width: 735px;
+            height: 80px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;           
+        }
+        h3{
+            width: 721px;
+            height: 38px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #66D6A0;
+            font-size: 22px;
+            margin-top: 17px;
+            margin-bottom: 21px;
+            text-align: start;
+        }
+        p{
+            width: 680px;
+            height: 150px;
+            margin-top: 21px;
+            color: white;
+            text-align: start;
+        }
+        .button-more{
+            color: white;
+            border-color: white;
+        }
+        .button-contact{
+            background-color: #06B25F;
+        }
+    }
+    
+}

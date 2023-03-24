@@ -1,0 +1,38 @@
+.slide3{
+    width: 1349px;
+    height: 839px;
+    
+    background: url(./main3.svg) no-repeat;
+    background-size: auto;  
+    .main31{
+        height:100%;
+    }
+    .slide1_text{
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        left: 100px;
+        color: white;
+        font-family: "Montserrat";
+         margin-top: 227px;
+        h1{            
+            width: 500px;
+            height: 80px;
+                       
+        }
+        p{
+            width: 551px;
+            height: 156px;
+            margin-top: 16px;
+            color: white;
+            text-align: start;
+        } 
+        .button-more{
+            color: white;
+            border-color: white;
+        }
+        .button-contact{
+            background-color: #06B25F;
+        }              
+    }
+}

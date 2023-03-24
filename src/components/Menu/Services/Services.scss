@@ -1,0 +1,14 @@
+
+div{
+    .second{
+        height: 30px;
+        margin-top: 25px;
+        font-family: 'Montserrat';
+        background: inherit;
+        &:hover{
+            background: inherit;
+        }
+        
+    }
+    
+}

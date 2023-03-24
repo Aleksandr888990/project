@@ -1,0 +1,91 @@
+.tech{
+    width: 100%;
+    font-family: 'Montserrat';
+    margin-top: 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h2{
+        
+        color: #194484;
+        letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 36px;
+    }
+    p{
+        margin-top: 60px;
+        font-size: 24px;
+        width: 898px;
+        height: 81px;
+        display: flex;
+        flex-direction: row;
+        color: rgba(36, 36, 36, 1);
+        .tech-first{
+            font-size: 24px;
+            margin-top: 0;
+            color: #00A4E8;
+            font-weight: 700;
+        }
+        .tech-second{
+            padding: 0;
+            color: rgba(25, 68, 132, 1);
+            font-weight: 700;
+            
+        }
+    }
+    .icons{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 300px;
+        .android{
+            width: 64px;
+            height: 64px;
+            background-color: #06B25F;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .apple{
+            width: 64px;
+            height: 64px;
+            background-color: #276ED8;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cube{
+            width: 64px;
+            height: 64px;
+            background-color: #84B5FF;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    p{
+        margin-top: 30px;
+    }
+    .tec-logo{
+        margin-top: 100px;
+        width: 850px;
+        height: 138px;
+        box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .inside{
+            width: 750px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    
+}

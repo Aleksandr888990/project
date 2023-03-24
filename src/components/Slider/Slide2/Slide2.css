@@ -1,0 +1,17 @@
+.slide1 {
+  width: 1440px;
+  height: 939px;
+}
+.slide1 .main1 {
+  position: relative;
+  left: 0;
+  top: -16px;
+  width: 100%;
+  height: 939px;
+}
+.slide1 .main12 {
+  position: absolute;
+  top: 0;
+  left: -150px;
+  z-index: 1;
+}/*# sourceMappingURL=Slide2.css.map */
