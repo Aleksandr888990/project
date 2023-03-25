@@ -4,7 +4,7 @@ import './Blog.scss'
 import Section from '../../components/Section/Section'
 import Contacts from '../../components/Contacts/Contacts'
 import Reviews from '../../components/Reviews/Reviews'
-import { NavLink, Route } from 'react-router-dom'
+import { NavLink} from 'react-router-dom'
 
 type Props = {}
 
