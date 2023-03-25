@@ -46,34 +46,34 @@ const Contacts = (props: Props) => {
       <div className="contacts2">
         <ul>
           <li>
-            <img src={Vector1} />
+            <img src={Vector1} alt="" />
             <p>Ukraine, Kyiv, Rodyny Kristeriv 20B, office 188</p>
           </li>
           <li>
-            <img src={Vector2} />
+            <img src={Vector2} alt="" />
             <p>+38 (093) 345 56 76</p>
           </li>
           <li>
-            <img src={Vector3} />
+            <img src={Vector3} alt="" />
             <p>+38 (093) 345 56 77</p>
           </li>
           <li>
-            <img src={Vector4} />
+            <img src={Vector4} alt="" />
             <p>Stanassets</p>
           </li>
           <li>
-            <img src={Vector5} />
+            <img src={Vector5} alt="" />
             <p>stanAssets@gmail.com</p>
           </li>
           <li>
-            <img src={Vector6} />
+            <img src={Vector6} alt="" />
             <p>facebook.com/Stanassets</p>
           </li>
         </ul>
         <div className="request">
-          <img className="mobile" src={mobile} />
-          <img className="mind" src={mind} />
-          <img className="mail" src={mail} />
+          <img className="mobile" src={mobile} alt="" />
+          <img className="mind" src={mind} alt="" />
+          <img className="mail" src={mail} alt="" />
           <form className="blank" onSubmit={handleSubmit(onSubmit)}>
             <div className="form">
               <TextField

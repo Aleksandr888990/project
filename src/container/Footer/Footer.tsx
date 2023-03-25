@@ -5,9 +5,9 @@ type Props = {}
 const Footer = (props: Props) => {
   return (
     <>
-        <img className='footer' src={footer} />
+      <img className="footer" src={footer} alt="" />
     </>
-  )
+  );
 }
 
 export default Footer

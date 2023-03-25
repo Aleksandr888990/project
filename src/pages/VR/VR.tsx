@@ -7,7 +7,7 @@ const VR = (props: Props) => {
     <>
       <div className="block1">
         <h2>VR APP Development</h2>
-        <img src={IMG} />
+        <img src={IMG} alt="" />
       </div>
       <div className="block2">
         <div className="block3">

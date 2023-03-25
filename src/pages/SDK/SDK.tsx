@@ -7,7 +7,7 @@ const SDK = (props: Props) => {
     <>
       <div className="block1">
         <h2>sdk 3d modeling</h2>
-        <img src={IMG} />
+        <img src={IMG} alt="" />
       </div>
       <div className="block2">
         <div className="block3">

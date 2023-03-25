@@ -17,10 +17,10 @@ const AboutUs = (props: Props) => {
           <span className="about-span">Games, VR, 3D, SDK,</span> and{" "}
           <span className="about-span">Unity packages.</span>
         </h2>
-        <img className="about-first-img" src={img1} />
+        <img className="about-first-img" src={img1} alt="" />
       </div>
       <div className="about-second">
-        <img className="about-second-img" src={img2} />
+        <img className="about-second-img" src={img2} alt="" />
         <p className="about-second-text">
           Stan's Assets were founded in 2013 with the story of Stan, who worked
           at night after his main job and developed the first Unity packages.
@@ -38,7 +38,9 @@ const AboutUs = (props: Props) => {
             Thank for our plugins we became recognizible and started working
             with top worlknown companies like{" "}
             <span className="about-span2">
-              Moon Studios, Roomful and others.<br /><br />
+              Moon Studios, Roomful and others.
+              <br />
+              <br />
             </span>{" "}
             Now our team has more than{" "}
             <span className="about-span2">15 developers</span> who create{" "}
@@ -50,17 +52,17 @@ const AboutUs = (props: Props) => {
           <p className="about-third-text1 blue">
             If you share our values we'd love to see you as a part of our team!
           </p>
-          <h4 className="about-third-text3 blue" >Our mission</h4>
+          <h4 className="about-third-text3 blue">Our mission</h4>
           <p className="about-third-text1">
             To create slick code that will be understandable to all developers
             who may work on a project after us and to make the developer's life
             easier with our plugins.
           </p>
-            </div>
-            <img className="about-third-img" src={img3} />
         </div>
-        <Section />
-        <Contacts />
+        <img className="about-third-img" src={img3} alt="" />
+      </div>
+      <Section />
+      <Contacts />
     </>
   );
 }

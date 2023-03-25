@@ -13,9 +13,9 @@ const Blog = (props: Props) => {
     <>
       <div className="Blog">
         <h2>article 1</h2>
-        <img src={img} className="bike" />
+        <img src={img} className="bike" alt="" />
         <div className="date">
-          <img src={me} className="me" />
+          <img src={me} className="me" alt="" />
           <p className="date-me">
             By Olecsandr Falchenko <span className="me-s">|</span> March 20,
             2023
@@ -69,7 +69,7 @@ const Blog = (props: Props) => {
           onClick={() => window.scrollTo(0, 0)}
         >
           <div className="blog-author">
-            <img src={me} className="me-blog" />
+            <img src={me} className="me-blog" alt="" />
             <div className="blog-text">
               <p className="blog-text-o">Oleksandr Falchenko</p>
               <p className="blog-text-j">Junior</p>

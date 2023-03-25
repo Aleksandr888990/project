@@ -7,7 +7,7 @@ const GD = (props: Props) => {
     <>
       <div className="block1">
         <h2>Game development outsourcing</h2>
-        <img src={IMG} />
+        <img src={IMG} alt="" />
       </div>
       <div className="block2">
         <div className="block3">

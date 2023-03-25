@@ -21,20 +21,20 @@ const Technologies = (props: Props) => {
       </p>
       <div className="icons">
         <div className="android">
-          <img src={android}></img>
+          <img src={android} alt=""></img>
         </div>
         <div className="apple">
-          <img src={apple}></img>
+          <img src={apple} alt=""></img>
         </div>
         <div className="cube">
-          <img src={cube}></img>
+          <img src={cube} alt=""></img>
         </div>
       </div>
       <p>Our engineers develop applications for the most popular platforms.</p>
       <div className="tec-logo">
         <div className="inside">
-          <img src={logo} />
-          <img src={stars} />
+          <img src={logo} alt="" />
+          <img src={stars} alt="" />
           <Button variant="contained" color="success" sx={{ height: "42px" }}>
             <NavLink
               to="blog"
