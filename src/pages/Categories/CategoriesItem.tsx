@@ -48,6 +48,7 @@ const VrItem = ({
         variant="outlined"
         component={Link}
         to={`/${category}/${id}`}
+        onClick={() => window.scrollTo(0, 0)}
       >
         More
       </Button>

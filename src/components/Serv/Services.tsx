@@ -9,7 +9,11 @@ const Services = (props: Props) => {
     <>
       <h2 className="servi">Categories</h2>
       <Card className="card">
-        <NavLink className="nav" to="/VR App Development">
+        <NavLink
+          className="nav"
+          to="/VR App Development"
+          onClick={() => window.scrollTo(0, 0)}
+        >
           <div className="serv-image">
             <img src="/images/Main/Illustration 4.svg" alt="" />
           </div>
@@ -19,7 +23,11 @@ const Services = (props: Props) => {
         </NavLink>
       </Card>
       <Card className="card">
-        <NavLink className="nav" to="/Game Development">
+        <NavLink
+          className="nav"
+          to="/Game Development"
+          onClick={() => window.scrollTo(0, 0)}
+        >
           <div className="serv-image">
             <img src="/images/Main/Illustration 2.svg" alt="" />
           </div>
@@ -29,7 +37,11 @@ const Services = (props: Props) => {
         </NavLink>
       </Card>
       <Card className="card">
-        <NavLink className="nav" to="/SDK 3d Modeling">
+        <NavLink
+          className="nav"
+          to="/SDK 3d Modeling"
+          onClick={() => window.scrollTo(0, 0)}
+        >
           <div className="serv-image">
             <img src="/images/Main/Illustration 3.svg" alt="" />
           </div>
