@@ -33,7 +33,7 @@ const Contacts = (props: Props) => {
     reset();
   };
   return (
-    <div>
+    <div className="coontacts">
       <h2>CONTACTS</h2>
       <h3>
         We are open for dialog and you are welcome to share your opinions or

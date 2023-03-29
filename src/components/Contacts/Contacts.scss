@@ -1,3 +1,9 @@
+.coontacts{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
 h2{
     color: rgba(25, 68, 132, 1);
     letter-spacing: 0.1em;
@@ -21,7 +27,7 @@ p{
 .contacts2{
     display: flex;
     margin-top: 45px;
-    margin-left: 170px;
+    // margin-left: 170px;
 
 }
 ul{
@@ -36,8 +42,6 @@ ul{
             height: 40px;
             font-size: 16px;
             text-align: start;
-            // align-items: center;
-            // text-transform: capitalize;
             margin-left: 15px;
             color: #242424;
         }
@@ -68,10 +72,7 @@ ul{
         background: #FFFFFF;
         box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
         border-radius: 6px;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
+        
         .form{
             width: 340px;
             height: 400px;

@@ -3,31 +3,31 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { useAppDispatch, useAppSelector } from "../../redux/hooks";
 import { addLike, removeLike } from "../../redux/likeReducer";
-import './MoreServItem.scss'
+import { Link } from "react-router-dom";
+
 type Props = {
   id: number;
   title: string;
   text: string;
   image: string;
-  textmore: string;
+  category: string;
   addNumberCount: (count: number) => void;
   removeNumberCount: (count: number) => void;
 };
 
-const MoreServItem = ({
+const VrItem = ({
   id,
   title,
   text,
   image,
-  textmore,
+  category,
   addNumberCount,
   removeNumberCount,
 }: Props) => {
   const isLiked = useAppSelector((state) => state.productsLikeState[id]);
   const dispatch = useAppDispatch();
-console.log({textmore})
   return (
-    <Card className="card card-more">
+    <Card className="card">
       <Button
         className="btn"
         variant="outlined"
@@ -43,18 +43,23 @@ console.log({textmore})
       >
         {isLiked ? <FavoriteIcon /> : <FavoriteBorderIcon />}
       </Button>
-      <div className="serv-image more-img">
+      <Button
+        className="btn-more"
+        variant="outlined"
+        component={Link}
+        to={`/${category}/${id}`}
+      >
+        More
+      </Button>
+      <div className="serv-image">
         <img src={image} alt="" />
       </div>
       <div className="content">
         <div className="serv-title">{title}</div>
         <div className="serv-text">{text}</div>
       </div>
-      <div>
-        <div className="more-textmore">{textmore}</div>
-      </div>
     </Card>
   );
 };
 
-export default MoreServItem;
+export default VrItem;

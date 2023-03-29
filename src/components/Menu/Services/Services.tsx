@@ -74,7 +74,7 @@ export default function CustomizedMenus() {
         onClick={handleClick}
         endIcon={<KeyboardArrowDownIcon />}
       >
-        SERVICES
+        CATEGORIES
       </Button>
       <StyledMenu
         className="four"
@@ -86,21 +86,27 @@ export default function CustomizedMenus() {
         open={open}
         onClose={handleClose}
       >
-        <MenuItem
-          onClick={handleClose}
-          disableRipple
-        >
-          <Link to="vr" style={{ textDecoration: "none", color: "#242424" }}>
+        <MenuItem onClick={handleClose} disableRipple>
+          <Link
+            to="/VR App Development"
+            style={{ textDecoration: "none", color: "#242424" }}
+          >
             VR App Development
           </Link>
         </MenuItem>
         <MenuItem onClick={handleClose} disableRipple>
-          <Link to="gd" style={{ textDecoration: "none", color: "#242424" }}>
+          <Link
+            to="/Game Development"
+            style={{ textDecoration: "none", color: "#242424" }}
+          >
             Game Development
           </Link>
         </MenuItem>
         <MenuItem onClick={handleClose} disableRipple>
-          <Link to="sdk" style={{ textDecoration: "none", color: "#242424" }}>
+          <Link
+            to="/SDK 3d Modeling"
+            style={{ textDecoration: "none", color: "#242424" }}
+          >
             SDK 3d Modeling
           </Link>
         </MenuItem>

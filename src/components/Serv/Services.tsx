@@ -1,29 +1,43 @@
-import ServicesItem from "./ServicesItem";
-import servicesArray from '../../utils/servicesArray';
-import './Services.scss'
+import "./Services.scss";
+import { Card } from "@mui/material";
+import { NavLink } from "react-router-dom";
 type Props = {
-  addNumberCount: (count: number) => void;
-  removeNumberCount: (count: number) => void;
 };
 
-const Services = ({ addNumberCount, removeNumberCount }: Props) => {
+const Services = (props: Props) => {
   return (
     <>
-      <div className="servi">Services</div>
-      <div className="servic">
-        {servicesArray.map(({ id, title, text, image }) => (
-          <div className="service" key={id}>
-            <ServicesItem
-              id={id}
-              title={title}
-              text={text}
-              image={image}
-              addNumberCount={addNumberCount}
-              removeNumberCount={removeNumberCount}
-            />
+      <h2 className="servi">Categories</h2>
+      <Card className="card">
+        <NavLink className="nav" to="/VR App Development">
+          <div className="serv-image">
+            <img src="/images/Main/Illustration 4.svg" alt="" />
           </div>
-        ))}
-      </div>
+          <div className="content">
+            <div className="serv-title">VR App Development</div>
+          </div>
+        </NavLink>
+      </Card>
+      <Card className="card">
+        <NavLink className="nav" to="/Game Development">
+          <div className="serv-image">
+            <img src="/images/Main/Illustration 2.svg" alt="" />
+          </div>
+          <div className="content">
+            <div className="serv-title game">GAME DEVELOPMENT</div>
+          </div>
+        </NavLink>
+      </Card>
+      <Card className="card">
+        <NavLink className="nav" to="/SDK 3d Modeling">
+          <div className="serv-image">
+            <img src="/images/Main/Illustration 3.svg" alt="" />
+          </div>
+          <div className="content">
+            <div className="serv-title">SDK 3D Modeling services</div>
+          </div>
+        </NavLink>
+      </Card>
     </>
   );
 };
